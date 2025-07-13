@@ -1,3 +1,8 @@
+#Name: Jesulewami Kupoluyi 
+#Department: Information systems 
+#Course Code: IFS-312
+#Date: 13th July, 2025
+
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.gridlayout import GridLayout
