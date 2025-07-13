@@ -11,7 +11,7 @@ class MyWidget(BoxLayout):
         self.orientation = 'vertical'
         
         # Display label
-        self.label = Label(text='Welcome! Click buttons to start calculating.', font_size=20, size_hint=(1, 0.2))
+        self.label = Label(text='Welcome! Click buttons to start calculating.', font_size=30, size_hint=(1, 0.2))
         self.add_widget(self.label)
 
         # History list
@@ -31,7 +31,7 @@ class MyWidget(BoxLayout):
         for text in buttons:
             btn = Button(
                 text=text,
-                font_size=20,
+                font_size=50,
                 background_color=(0, 0, 1, 1),  # Blue background
                 color=(1, 1, 1, 1)              # White text
             )
